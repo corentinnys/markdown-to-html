@@ -64,3 +64,21 @@ ul{
     position : relative;
 }
 
+footer {
+    background: black;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+}
+footer>a+span{
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer>a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
