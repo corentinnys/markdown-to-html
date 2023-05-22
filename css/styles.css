@@ -65,7 +65,7 @@ ul{
 }
 
 footer {
-    background: black;
+    background: brown;
     padding: 10px;
 }
 footer{
@@ -80,5 +80,10 @@ footer>a{
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
+    transition: ease-in  all 1s;
+}
+
+footer>a:hover{
+    color: darkslategrey;
 }
 
