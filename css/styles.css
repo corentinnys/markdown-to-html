@@ -1,13 +1,34 @@
+.bg-white
+{
+    background: beige;
+}
+
+
+header{
+    background: lightgreen;
+    margin: 0;
+    padding: 20px;
+    box-shadow: 10px 10px greenyellow;
+}
+
+
 h1{
-  font-size: 2rem;
+    font-size: 4rem;
+    color: white;
 }
 
 img{
-    height: 90px;
-    width: 90px;
-    top: 0;
+    height: 150px;
+    width: 150px;
+    bottom: 20px;
     left:30px;
+}
 
+
+li>img {
+    width: 20px;
+    height: 20px;
+    margin : 5px;
 }
 
 th, td {
@@ -16,7 +37,7 @@ th, td {
 }
 h3{
     text-decoration: underline;
-    font-size: 1.2rem;
+    font-size: 3rem;
 }
 ul{
     padding: 0;
